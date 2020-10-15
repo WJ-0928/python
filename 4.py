@@ -1,0 +1,9 @@
+Chinese=float(input('语文成绩：'))
+Math=float(input('数学成绩：'))
+English=float(input('英语成绩：'))
+if((Chinese>=60)and((Math>=90)or(English>=90))):
+    print('语文及格且数学或者英语优秀')
+elif((Chinese>=60)or(Math>=60)or(English>=60)):
+    print('至少一门课程及格')
+elif((Chinese>=60)and(Math>=60)and(English>=60)):
+    print('三门课程都及格')
